@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Clientes"
+
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/cliente"
+        app:showAsAction="collapseActionView"
+        />
+    <item android:title="Productos"
+        android:id="@+id/producto"
+         android:icon="@drawable/ic_launcher_background"
+        app:showAsAction="collapseActionView"
+        />
+    <item android:title="Serivcios"
+        android:icon="@drawable/ic_launcher_background"
+         android:id="@+id/servicio"
+        />
+    <item android:title="Descargas"
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/descarga"
+        />
+    <item android:title="Software"
+        android:icon="@drawable/ic_launcher_background"
+        android:id="@+id/software"
+        />
+</menu>
