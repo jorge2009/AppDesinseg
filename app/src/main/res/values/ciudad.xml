@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="lenguajes">
+        <item>Seleccione</item>
+        <item>Ruby</item>
+        <item>Java</item>
+        <item>.NET</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>JavaScript</item>
+        <item>GO</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DesinsegApp</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="cedula">Identificacion</string>
+    <string name="correo">Correo</string>
+    <string name="guardar">Guardar</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="apellido2">Segundo Apellido</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="empresa">Empresa</string>
+</resources>
