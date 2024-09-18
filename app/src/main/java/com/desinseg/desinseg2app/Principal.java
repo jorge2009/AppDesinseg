@@ -15,6 +15,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.desinseg.desinseg2app.cliente.Cliente;
+import com.desinseg.desinseg2app.producto.Producto;
 
 public class Principal extends AppCompatActivity {
 
@@ -47,7 +48,8 @@ public class Principal extends AppCompatActivity {
                 Toast.makeText(Principal.this, "descarga", Toast.LENGTH_SHORT).show();
             }
             if(item.getItemId()==R.id.producto){
-                Toast.makeText(Principal.this, "producto", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(getApplicationContext(), Producto.class);
+                startActivity(intent);
             }
             if(item.getItemId()==R.id.servicio){
                 Toast.makeText(Principal.this, "servicio", Toast.LENGTH_SHORT).show();

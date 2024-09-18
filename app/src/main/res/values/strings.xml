@@ -11,4 +11,14 @@
     <string name="apellido2">Segundo Apellido</string>
     <string name="ciudad">Ciudad</string>
     <string name="empresa">Empresa</string>
+    <string name="producto">Producto</string>
+    <string name="valor">Valor</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="ruta">Ruta</string>
+    <string name="ver">Ver</string>
+    <string name="estado">Estado</string>
+    <string name="desCorta">Descripcion Corta</string>
+    <string name="bodega">Bodega</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="proveedor">Proveedor</string>
 </resources>
