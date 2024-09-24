@@ -21,11 +21,13 @@ public interface ProductoInterface {
             @Field("ruta") String ruta,
             @Field("ver") String ver,
             @Field("des_corta") String desCorta,
-            @Field("valor") BigDecimal valor,
+            @Field("valor") double valor,
             @Field("cod_estado") int codEstado,
             @Field("cod_bodega") int codBodega,
             @Field("cantidad") int cantidad,
             @Field("cod_empresa") int  codEmpresa,
-            @Field("cod_proveedor") int codProveedor
+            @Field("cod_proveedor") int codProveedor,
+            @Field("cod_producto") int codProducto,
+            @Field("key") String key
     );
 }

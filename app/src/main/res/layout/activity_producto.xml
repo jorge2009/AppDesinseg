@@ -96,6 +96,15 @@
         android:layout_marginRight="20dp"
         android:id="@+id/proveedor"/>
 
+    <ImageView
+        android:id="@+id/imagenProducto"
+        android:layout_width="150dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/upload" />
+
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
